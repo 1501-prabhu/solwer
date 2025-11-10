@@ -16,12 +16,12 @@ html {
     --secondaryColor: #161C2D;
     --darkColor: #000000;
     --lightColor: #ffffff;
-    --font-size-h1: 5.6rem;
-    --font-size-h2: 3.6rem;
-    --font-size-h3: 2.4rem;
-    --font-sizee-h3: 2.8rem;
-    --regularFont: 1.8rem;
-    --regularFonte: 2rem;
+    --font-size-h1: 5.8rem;
+    --font-size-h2: 3.8rem;
+    --font-size-h3: 2.6rem;
+    --font-sizee-h3:3rem;
+    --regularFont: 2rem;
+    --regularFonte: 2.2rem;
     --ffPrimary: "Plus Jakarta Sans", sans-serif;
     --fw-regular: 400;
     --fw-bold: 700;
@@ -193,7 +193,7 @@ footer {
     align-items: start;
     width: 100%;
     height: 100%;
-    gap: 2.9rem;
+    gap: 3rem;
 }
 
 .links li {
