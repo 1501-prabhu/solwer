@@ -387,6 +387,13 @@ footer {
     border: 1px solid rgba(0, 0, 0, .1);
 }
 
+.mobilityBlockThree button {
+    width: 100%;
+    padding: 2rem 0rem;
+    border-radius: 1rem;
+    background-color: var(--lightColor);
+    border: 1px solid rgba(0, 0, 0, .1);
+}
 
 /* mobility code */
 
@@ -494,8 +501,9 @@ footer {
 }
 
 .digitalImageBlock img {
-    width: auto;
-    height: 50.5rem;
+    width: 100%;
+    /* height: 50.5rem; */
+    aspect-ratio: 1/1;
 }
 
 .digitalContentBlock {
@@ -891,10 +899,6 @@ ol li::before {
         padding: 0rem 1rem;
     }
 
-    h1 {
-        font-size: 3.5rem;
-    }
-
     .linksBlock .hamburgerIcon {
         display: block;
         position: absolute;
@@ -912,12 +916,16 @@ ol li::before {
         display: flex;
     }
 
+    .heroBlock h1 {
+        font-size: 3.5rem;
+    }
+
     .ecovideoBox iframe {
         position: absolute;
         top: 30rem;
         left: 15%;
         width: 70%;
-        height: 100%;
+        height: 70%;
         border: none;
         border-radius: 2rem;
     }
@@ -931,12 +939,11 @@ ol li::before {
     }
 
     .futureContentBlock h2 {
-        /* order: 1; */
         text-align: center;
     }
 
     .mobilityHeadingBlock {
-        padding: 0rem 5rem;
+        padding: 0rem 3rem;
         text-align: center;
     }
 
@@ -945,7 +952,7 @@ ol li::before {
         display: none;
     }
 
-    .mobilityBlockOne {
+    .mobilityBlock {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -953,26 +960,29 @@ ol li::before {
     }
 
     .mobilityContentBody img {
-
         width: auto;
         height: 32rem;
     }
 
-    .mobilityBlockOne button {
+    .mobilityBlock button {
         width: 50%;
     }
 
     .inspectionBlock {
-        padding: 0rem 5rem;
+        padding: 0rem 3rem;
     }
 
     .digitalHeadingBlock {
-        padding: 0rem 5rem;
+        padding: 0rem 3rem;
         text-align: center;
     }
 
     .digitalFooterBody {
-        padding: 0rem 5rem;
+        padding: 0rem 3rem;
+    }
+
+    .digitalImageBlock img{
+        padding: 3rem;
     }
 
     .list {
@@ -987,30 +997,41 @@ ol li::before {
         order: 1;
     }
 
+    .firstlist{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
     .newsOneBody,
     .newsTwoBody,
     .newsThreeBody {
-        padding: 0rem 5rem;
+        padding: 0rem 3rem;
     }
 
     .blogsContainer {
-        padding: 0rem 5rem;
+        padding: 0rem 3rem;
     }
 
     .blogsButtonBlock {
         margin-top: 2rem;
     }
 
+    .blogsdateBox{
+        margin-top: 2rem;
+    }
+
     .sustainableBlock {
-        padding: 0rem 5rem;
+        padding: 0rem 3rem;
     }
 
     .sustainableBlock h2 {
-        font-size: 20px;
+        font-size: 2rem;
     }
 
     .sustainableBlock p {
-        font-size: 14px;
+        font-size: 1.4rem;
     }
 
     .footerLogoBlock {
