@@ -889,6 +889,10 @@ ol li::before {
 /* Small devices (landscape phones, upto 576px and below) */
 @media (max-width: 576px) {
 
+    :root {
+    --font-size-h2: 3rem;
+}
+
     .navBargrid,
     .grid-2,
     .grid-3,
@@ -922,7 +926,7 @@ ol li::before {
 
     .ecovideoBox iframe {
         position: absolute;
-        top: 40rem;
+        top: 50rem;
         left: 15%;
         width: 75%;
         height: 55%;
