@@ -922,10 +922,10 @@ ol li::before {
 
     .ecovideoBox iframe {
         position: absolute;
-        top: 30rem;
+        top: 40rem;
         left: 15%;
-        width: 70%;
-        height: 70%;
+        width: 75%;
+        height: 55%;
         border: none;
         border-radius: 2rem;
     }
@@ -989,11 +989,11 @@ ol li::before {
         flex-wrap: wrap;
     }
 
-    .newsTwoContentBlock {
+    .newsOneContentBlock {
         order: 2;
     }
 
-    .newsTwoImageBlock {
+    .newsOneContentBlock {
         order: 1;
     }
 
