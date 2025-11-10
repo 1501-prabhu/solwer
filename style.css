@@ -934,11 +934,11 @@ ol li::before {
         border-radius: 2rem;
     }
 
-    .futureImageBlock {
+    .futureImageBlock,.newsOneContentBlock {
         order: 2;
     }
 
-    .futureContentBlock {
+    .futureContentBlock,.newsOneContentBlock {
         order: 1;
     }
 
@@ -972,7 +972,9 @@ ol li::before {
         width: 50%;
     }
 
-    .inspectionBlock {
+    .inspectionBlock,.digitalFooterBody,.newsOneBody,
+    .newsTwoBody,
+    .newsThreeBody,.blogsContainer,.sustainableBlock {
         padding: 0rem 3rem;
     }
 
@@ -981,9 +983,6 @@ ol li::before {
         text-align: center;
     }
 
-    .digitalFooterBody {
-        padding: 0rem 3rem;
-    }
 
     .digitalImageBlock img{
         padding: 3rem;
@@ -993,12 +992,8 @@ ol li::before {
         flex-wrap: wrap;
     }
 
-    .newsOneContentBlock {
-        order: 2;
-    }
-
-    .newsOneContentBlock {
-        order: 1;
+    .newsOneContentBlock h3{
+        font-size: 2.4rem;
     }
 
     .firstlist{
@@ -1008,26 +1003,9 @@ ol li::before {
         width: 100%;
     }
 
-    .newsOneBody,
-    .newsTwoBody,
-    .newsThreeBody {
-        padding: 0rem 3rem;
-    }
 
-    .blogsContainer {
-        padding: 0rem 3rem;
-    }
-
-    .blogsButtonBlock {
+    .blogsButtonBlock,.blogsdateBox{
         margin-top: 2rem;
-    }
-
-    .blogsdateBox{
-        margin-top: 2rem;
-    }
-
-    .sustainableBlock {
-        padding: 0rem 3rem;
     }
 
     .sustainableBlock h2 {
